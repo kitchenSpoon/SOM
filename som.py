@@ -1,1 +1,1 @@
-import sys,fileinputf = open('data24.txt')inputVec=[line.strip().split() for line in f]f.close()	neuronW=4neuronH=4	
+import sys,fileinputimport random as rf = open('data24.txt')inputVec=[line.strip().split() for line in f]f.close()	neuronW=4neuronH=4neuronN=neuronW*neuronHweight=[0]*len(inputVec)for i in xrange(len(weight)):	weight[i]=[0]*neuronNfor i in xrange(len(inputVec)):	for j in xrange(neuronN):		weight[i][j]=r.uniform(-1.0,1.0)	
