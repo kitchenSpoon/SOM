@@ -1,1 +1,1 @@
-import sys,fileinputinputVec=[]for l in fileinput.input():	inputVec.append(l)	neuronW=4neuronH=4	
+import sys,fileinputf = open('data24.txt')inputVec=[line.strip().split() for line in f]f.close()	neuronW=4neuronH=4	
