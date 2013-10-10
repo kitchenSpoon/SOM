@@ -1,0 +1,1 @@
+import sys,fileinputinputVec=[]for l in fileinput.input():	inputVec.append(l)	neuronW=4neuronH=4	
